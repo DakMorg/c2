@@ -1,0 +1,271 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+  
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+    border: 20px outset #1b3955;
+  }
+
+header a{
+    color:#fff;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding: 1%;
+  }
+
+.info-section{
+    display: flex;
+    padding: 1%;
+    border: 3% #fff;
+    background-color: #fff;
+    color:#13293d;
+    height: 1200px;
+}
+
+.info-section img{
+    height: 400px;
+    width: 400px;
+    border:20px outset #13293d;
+}
+
+.profile-info{
+    flex: 1 1 auto;
+}
+
+.profile-info h2{
+    font-size: 85pt;
+    text-align: center;
+}
+
+.profile-info p{
+    font-size: 75pt;
+    text-align: center;
+}
+
+.profile-pic{
+    margin: 20px 40px 0 0;
+    max-height: 300px;
+    max-width: 300px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.project-title h2{
+    font-size: 50pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border-top: 20px ridge #1b3955;
+}
+
+.project-section{
+    width: 100%;
+    margin: 0 auto;
+    border: 20px;
+}
+
+.project-container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1px;
+    padding: 1%;
+    background-color: #13293d; 
+}
+
+.project1{
+    height: 350px;
+    min-width: 10%;
+    max-width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px outset #1b3955;
+    flex-grow: 2;
+}
+
+.project1 img{
+    max-height: 250px;
+    max-width: 1160px;
+}
+
+.project2{
+    height: 350px;
+    min-width: 10%;
+    max-width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px outset #1b3955;
+    flex-grow: 1;
+}
+
+.project2 img{
+    max-height: 250px;
+    max-width: 1160px;
+}
+
+.project3{
+    height: 350px;
+    min-width: 10%;
+    max-width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px outset #1b3955;
+    flex-grow: 1;
+}
+
+.project3 img{
+    max-height: 250px;
+    max-width: 1160px;
+}
+
+.project4{
+    height: 350px;
+    min-width: 10%;
+    max-width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px outset #1b3955;
+    flex-grow: 2;
+}
+
+.project4 img{
+    max-height: 250px;
+    max-width: 1160px;
+}
+
+.project5{
+    height: 350px;
+    min-width: 10%;
+    max-width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px outset #1b3955;
+    flex-grow: 2;
+}
+
+.project5 img{
+    max-height: 250px;
+    max-width: 1160px;
+}
+
+.project6{
+    height: 350px;
+    min-width: 10%;
+    max-width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px outset #1b3955;
+    flex-grow: 1;
+}
+
+.project6 img{
+    max-height: 250px;
+    max-width: 1160px;
+}
+
+.project7{
+    height: 350px;
+    min-width: 10%;
+    max-width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px outset #1b3955;
+    flex-grow: 1;
+}
+
+.project7 img{
+    max-height: 250px;
+    max-width: 1160px;
+}
+
+.project8{
+    height: 350px;
+    min-width: 10%;
+    max-width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px outset #1b3955;
+    flex-grow: 2;
+}
+
+.project8 img{
+    max-height: 250px;
+    max-width: 1160px;
+}
+
+.info-title h2{
+    font-size: 50pt;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px
+}
+
+.contact-section{
+    height:1080px;
+    min-width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 1200px;
+    max-width: 100%;
+    gap: 1px;
+    padding-top: 1%;
+    background-color: #13293d;
+}
+
+.contact-section p{
+    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: center;
+    background-color: #13293d;
+    color: #fff;
+    border:20px outset #1b3955;
+    font-size: 30pt;
+    height: 300px;
+    min-width: 50%;
+}
+
+.resume-section{
+    background-color: #13293d;
+    color: #fff;
+    border-bottom: 20px ridge #1b3955;
+    text-align: center;
+    height: 1200px;
+}
+
+footer h3{
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
