@@ -10,6 +10,7 @@ The purpose of having a portfolio webpage is to be able to show employers who I 
 
 # Screen snip 
 
+<img width="1904" alt="project_2 snip" src="https://user-images.githubusercontent.com/108765820/181872339-12e0f0a4-a805-4dd8-a2d4-7be246add382.PNG">
 
 
 # Website
